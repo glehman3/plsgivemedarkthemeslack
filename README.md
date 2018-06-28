@@ -6,9 +6,9 @@ SLACK
 //
 
 Add snippet to bottom of ssb-interop.js for full dark theme goodness.
-`
 
-document.addEventListener('DOMContentLoaded', function() {
+
+`document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
    url: 'https://cdn.rawgit.com/glehman3/plsgivemedarkthemeslack/f20ad19c/cssthatslackcantdo',
    success: function(css) {
