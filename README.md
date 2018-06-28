@@ -6,13 +6,15 @@ SLACK
 //
 
 Add snippet to bottom of ssb-interop.js for full dark theme goodness.
+`
 
 document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
    url: 'https://cdn.rawgit.com/glehman3/plsgivemedarkthemeslack/f20ad19c/cssthatslackcantdo',
    success: function(css) {
-     css += `
-       div.c-virtual_list__scroll_container {
+      css += `
+     
+           div.c-virtual_list__scroll_container {
            background-color: #222 !important;
        }
        .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
