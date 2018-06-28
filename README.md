@@ -35,6 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
-
+```
 Side bar color code for manual slack preferences: #222222,#252525,#A36B31,#D2D6D6,#5C6380,#DEDEDE,#ADBA4E,#DB6668
 
