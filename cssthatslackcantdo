@@ -1529,11 +1529,11 @@ body > pre { background: #828282; }
 
 #threads_msgs_scroller_div .threads_caught_up_divider .divider_line { border-top: 1px solid #363636; }
 
-#threads_msgs_scroller_div .threads_caught_up_divider .divider_label { background: #545454; color: #e6e6e6; }
+#threads_msgs_scroller_div .threads_caught_up_divider .divider_label { background: #545454; color: #2F2C2F; }
 
 #threads_msgs_scroller_div.loading { background: none; }
 
-#threads_msgs_scroller_div.loading::before { color: #e6e6e6; }
+#threads_msgs_scroller_div.loading::before { color: #2F2C2F; }
 
 #threads_view_banner.messages_banner { background: #363636; }
 
@@ -1545,7 +1545,7 @@ body > pre { background: #828282; }
 
 ts-thread { background: #222; }
 
-ts-thread .reply_input_container .inline_message_input_container form textarea { border-color: #363636; color: #e6e6e6; }
+ts-thread .reply_input_container .inline_message_input_container form textarea { border-color: #363636; color: #2F2C2F; }
 
 ts-thread .reply_input_container .collapsed_input_placeholder, ts-thread .reply_input_container .join_channel_from_thread_container, ts-thread .reply_input_container .reply_limited_in_general { background: #363636; border-color: #363636; }
 
@@ -1589,15 +1589,15 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 .unread_group.marked_as_read .unread_group_header { background: #222; }
 
-.unread_group .unread_group_header { background: #363636; border-top-color: #545454; color: #e6e6e6; }
+.unread_group .unread_group_header { background: #363636; border-top-color: #545454; color: #2F2C2F; }
 
-.unread_group .unread_group_header .unread_group_collapse_toggle:hover ts-icon { color: #e6e6e6; }
+.unread_group .unread_group_header .unread_group_collapse_toggle:hover ts-icon { color: #2F2C2F; }
 
 .unread_group .unread_group_header .unread_group_collapse_caret .ts_icon_caret_down { color: #949494; }
 
 .unread_group .unread_group_header .unread_group_mark, .unread_group .unread_group_header .unread_keyboard { background: #222; }
 
-.unread_group.active .unread_group_header { background: #000; border-top-color: #545454; color: #e6e6e6; }
+.unread_group.active .unread_group_header { background: #000; border-top-color: #545454; color: #2F2C2F; }
 
 .collapsed .unread_group_header .ts_icon_caret_right, .collapsing .unread_group_header .ts_icon_caret_right { color: #949494; }
 
@@ -1605,7 +1605,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 .bottom_mark_all_read { border-top-color: #363636; }
 
-.unread_group_header_name a { color: #e6e6e6; }
+.unread_group_header_name a { color: #2F2C2F; }
 
 .unread_group_footer .unread_group_new .unread_group_new_text { color: #949494; }
 
@@ -1687,7 +1687,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #details_tab .conversation_details .member_name:hover { color: #949494; }
 
-#details_tab .conversation_details .member_username:hover { color: #e6e6e6; }
+#details_tab .conversation_details .member_username:hover { color: #2F2C2F; }
 
 #details_tab .conversation_details .member_info_timezone { border-top-color: #545454; }
 
@@ -1903,7 +1903,7 @@ html.no_touch a.filetype_button_web:hover .file_title { color: #e6e6e6; }
 
 .comment_actions { color: #949494; }
 
-.comment_actions:hover { color: #e6e6e6; }
+.comment_actions:hover { color: #2F2C2F; }
 
 .icon_quote { color: #e6e6e6; }
 
@@ -2237,9 +2237,9 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 .c-unified_member__display-name, .c-unified_member__secondary-name, .c-unified_member__title, .c-unified_member__other-names, .c-unified_member__other-names { color: #e6e6e6 !important; }
 
-#convo_tab #convo_tab_btns .close_flexpane:focus, #convo_tab #convo_tab_btns .close_flexpane:hover { color: #e6e6e6; }
+#convo_tab #convo_tab_btns .close_flexpane:focus, #convo_tab #convo_tab_btns .close_flexpane:hover { color: #2F2C2F; }
 
-#convo_tab textarea.message_input { color: #e6e6e6; }
+#convo_tab textarea.message_input { color: #2F2C2F; }
 
 #reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea { border-color: #363636; color: #e6e6e6; }
 
@@ -2257,9 +2257,9 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #convo_container ts-conversation ts-message.selected .message_content .thread_channel_link { color: #949494; }
 
-#convo_tab .message_input, #convo_tab textarea#msg_text { color: #e6e6e6; }
+#convo_tab .message_input, #convo_tab textarea#msg_text { color: #2F2C2F; }
 
-#whats_new_tab p { color: #e6e6e6; }
+#whats_new_tab p { color: #2F2C2F; }
 
 #whats_new_tab .flex_heading_controls label { color: #949494; }
 
