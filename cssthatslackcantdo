@@ -62,7 +62,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #2F2C2F; }
 
 .p-channel_sidebar { background-color: #363636; color: #2F2C2F; }
 
-.p-channel_sidebar__channel, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover { color: rgba(230, 230, 230, 0.8) !important; }
+.p-channel_sidebar__channel, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover { color: rgba(18, 17, 18, 0.8) !important; }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__link--selected:hover { color: #2F2C2F; }
 
@@ -100,7 +100,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #2F2C2F; }
 
 .channels_list_holder ul li { text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
-.channels_list_holder ul li .channel_name, .channels_list_holder ul li .group_name, .channels_list_holder ul li .im_name, .channels_list_holder ul li .mpim_name, .channels_list_holder ul li > a { background: #363636; color: rgba(230, 230, 230, 0.8) !important; }
+.channels_list_holder ul li .channel_name, .channels_list_holder ul li .group_name, .channels_list_holder ul li .im_name, .channels_list_holder ul li .mpim_name, .channels_list_holder ul li > a { background: #363636; color: rgba(18, 17, 18, 0.8) !important; }
 
 .channels_list_holder ul li .channel_name:hover, .channels_list_holder ul li .group_name:hover, .channels_list_holder ul li .im_name:hover, .channels_list_holder ul li .mpim_name:hover, .channels_list_holder ul li > a:hover { background: #222 !important; border-bottom-right-radius: 0.25rem; border-top-right-radius: 0.25rem; }
 
@@ -316,11 +316,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #select_share_channels .lazy_filter_select .lfs_item .ts_icon:not(.presence_icon) { color: #949494 !important; }
 
-#message_edit_form .emo_menu { color: rgba(230, 230, 230, 0.3); }
+#message_edit_form .emo_menu { color: rgba(18, 17, 18, 0.3); }
 
 #message_edit_form .emo_menu.active .ts_icon_happy_smile, #message_edit_form .emo_menu:hover .ts_icon_happy_smile { color: #828282; }
 
-#message_edit_form.focus .emo_menu { color: rgba(230, 230, 230, 0.6); }
+#message_edit_form.focus .emo_menu { color: rgba(18, 17, 18, 0.6); }
 
 #message_edit_form.focus #primary_file_button:not(:hover) { border-color: #363636; }
 
@@ -946,7 +946,7 @@ ts-message .in_reply_to { background: #000; color: #949494; }
 
 ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display) { border: 1px solid #363636; }
 
-ts-message.unprocessed { color: rgba(230, 230, 230, 0.75); }
+ts-message.unprocessed { color: rgba(18, 17, 18, 0.75); }
 
 ts-message.highlight { background: rgba(191, 54, 12, 0.4); }
 
@@ -966,7 +966,7 @@ ts-message .recap_highlight a { color: #2F2C2F; }
 
 ts-message.delete_mode, ts-message.multi_delete_mode { background: rgba(191, 54, 12, 0.75); }
 
-ts-message.automated .message_body { color: rgba(230, 230, 230, 0.8); }
+ts-message.automated .message_body { color: rgba(18, 17, 18, 0.8); }
 
 ts-message .action_hover_container { border: 1px solid #363636; }
 
@@ -1321,7 +1321,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 #archives_return a { color: #2F2C2F; }
 
-#archives_return a:hover { color: rgba(230, 230, 230, 0.8); }
+#archives_return a:hover { color: rgba(18, 17, 18, 0.8); }
 
 #messages_unread_status { background: #545454; }
 
@@ -1343,7 +1343,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 #archives_end_div_msg_lim h1, #end_display_msg_lim h1 { color: #2F2C2F; }
 
-#archives_end_div_msg_lim h2, #end_display_msg_lim h2 { color: rgba(230, 230, 230, 0.8); }
+#archives_end_div_msg_lim h2, #end_display_msg_lim h2 { color: rgba(18, 17, 18, 0.8); }
 
 code { background-color: #000; border: 1px solid #363636; color: #2F2C2F; }
 
@@ -2197,7 +2197,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #member_preview_scroller .member_data_table .current_status_cell .current_status_container .current_status_cover:hover { border-color: #363636; }
 
-#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active) .current_status_cover.without_status_set .current_status_placeholder { color: rgba(230, 230, 230, 0.35) !important; }
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active) .current_status_cover.without_status_set .current_status_placeholder { color: rgba(18, 17, 18, 0.35) !important; }
 
 #team_tab #member_preview_scroller { background-color: #222; }
 
@@ -2391,7 +2391,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .rxn .emoji_rxn_count, .rxn .c-reaction__count, .c-reaction .emoji_rxn_count, .c-reaction .c-reaction__count, .c-reaction_add .emoji_rxn_count, .c-reaction_add .c-reaction__count, .c-member_slug .emoji_rxn_count, .c-member_slug .c-reaction__count { color: #2F2C2F; }
 
-.rxn.menu_rxn .ts_icon, .c-reaction.menu_rxn .ts_icon, .c-reaction_add.menu_rxn .ts_icon, .c-member_slug.menu_rxn .ts_icon { color: rgba(230, 230, 230, 0.25); }
+.rxn.menu_rxn .ts_icon, .c-reaction.menu_rxn .ts_icon, .c-reaction_add.menu_rxn .ts_icon, .c-member_slug.menu_rxn .ts_icon { color: rgba(18, 17, 18, 0.25); }
 
 .modal { background-color: #222; border: 0; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
 
@@ -2419,7 +2419,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 #fs_modal #fs_modal_sidebar a.active { background: #000; color: #2F2C2F; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
 
-#fs_modal .fs_modal_btn { color: rgba(230, 230, 230, 0.5); }
+#fs_modal .fs_modal_btn { color: rgba(18, 17, 18, 0.5); }
 
 #fs_modal .fs_modal_btn:hover { background: #828282; color: #2F2C2F; }
 
