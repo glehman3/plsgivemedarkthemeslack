@@ -1555,7 +1555,7 @@ ts-thread ts-message.new_reply { background: #222; }
 
 ts-thread ts-message.new_reply:hover { background: #363636; }
 
-ts-thread .thread_header .thread_channel_name a { color: #e6e6e6; }
+ts-thread .thread_header .thread_channel_name a { color: #2F2C2F; }
 
 ts-thread .thread_header .thread_action_btns button { color: #949494; }
 
@@ -1573,7 +1573,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 .reply_input_container .inline_message_input_container .ql-container.focus { border-color: rgba(0, 0, 0, 0.15); }
 
-.reply_input_container .inline_message_input_container .ql-container.focus ~ .emo_menu { color: #e6e6e6; }
+.reply_input_container .inline_message_input_container .ql-container.focus ~ .emo_menu { color: #2F2C2F; }
 
 .reply_input_container .inline_message_input_container .ql-container ~ .emo_menu { color: #949494; }
 
