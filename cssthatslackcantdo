@@ -306,7 +306,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .lazy_filter_select .lfs_token::after { color: #e6e6e6; }
 
-.lazy_filter_select.single .lfs_input_container.active::after, .lazy_filter_select.single .lfs_input_container:hover::after { color: #9469ff; }
+.lazy_filter_select.single .lfs_input_container.active::after, .lazy_filter_select.single .lfs_input_container:hover::after { color: #e6e6e6; }
 
 #select_share_channels .lazy_filter_select .lfs_value .lfs_item.selected { color: #e6e6e6 !important; }
 
